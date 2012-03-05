@@ -1,0 +1,37 @@
+<html>
+
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "style/slideShow.css" /s>
+		
+		<script type = "text/javascript" src = "animation/jquery.js"></script>
+		
+		<script type = "text/javascript" src = "animation/slideShow.js"></script>
+		
+		<script type="text/javascript">
+			$(function(){
+       			$('.gallery').slideShow();
+      		});
+		</script>
+		
+	</head>
+	
+	
+	<body>
+		<div class = "wrapper">
+			<div class="gallery">
+				<img src="url1.jpeg" class="galleryImage"/>
+				<img src="url2.jpeg" class="galleryImage" />
+				<img src="url3.jpeg" class="galleryImage" />
+				<img src="url4.jpg"	class="galleryImage" />
+			</div>
+			<div class="arrowLeftWrapper">
+				<img src="leftarrow.png"	id="arrow" />
+			</div>
+			
+			<div class="arrowRightWrapper">
+				<img src="rightarrow.png"	id="arrow" />
+			</div>
+		</div>
+	</body>
+	
+</html>

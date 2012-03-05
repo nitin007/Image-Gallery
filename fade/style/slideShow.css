@@ -1,0 +1,38 @@
+div.wrapper
+{
+	background-color:#D2CECF;
+}
+
+div.gallery
+{
+	margin-left:400px;
+	width:500px;
+	overflow:hidden;
+}
+
+img.galleryImage
+{
+	height:300px;
+	width:500px;
+}
+
+div.arrowLeftWrapper
+{
+	position:absolute;
+	top:130px;
+	left:350px;
+	cursor:pointer;
+}
+div.arrowLeftWrapper img
+{
+	width:58px;
+	height:58px;
+}
+
+div.arrowRightWrapper
+{
+	position:absolute;
+	top:130px;
+	left:905px;
+	cursor:pointer;
+}
